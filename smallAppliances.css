@@ -575,6 +575,13 @@ margin-top: 30px;
       border: 1px solid red;
       /* width: 40px; */
   }
+  .footfund4 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.footfund4 ul li a:hover{
+    color: #E42329 !important;
+}
   .add:hover{
       background-color: #E42329;
       color: white;
