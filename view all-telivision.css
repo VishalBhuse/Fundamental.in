@@ -16,6 +16,13 @@
 .navlighcolor:hover{
     color: #E42329 !important;
 }
+.footfund4 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.footfund4 ul li a:hover{
+    color: #E42329 !important;
+}
 
 .carousel-item img {
     height: 80vh;
