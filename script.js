@@ -23,29 +23,29 @@ var data = JSON.parse(localStorage.getItem("cart"));
 
 
 
-	var Redboxdata = [{
-		imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-3.1.1.png"
-	},{
-		imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-4.1.png"
-	},{
-		imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-5.1.png"
-	},{
-		imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-1.1.png"
-	},{
-		imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-2.1.png"
-	},{
-		imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-6.png"
-	}
-	];
+	// var Redboxdata = [{
+	// 	imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-3.1.1.png"
+	// },{
+	// 	imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-4.1.png"
+	// },{
+	// 	imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-5.1.png"
+	// },{
+	// 	imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-1.1.png"
+	// },{
+	// 	imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-2.1.png"
+	// },{
+	// 	imgUrl:"https://fundamental.in/wp-content/uploads/2022/01/Short-Bannerc-6.png"
+	// }
+	// ];
 	
-	Redboxdata.forEach(function(el){
-		var div = document.createElement("div");
-		div.setAttribute("id","innerDiv");
+	// Redboxdata.forEach(function(el){
+	// 	var div = document.createElement("div");
+	// 	div.setAttribute("id","innerDiv");
 		
 	
-		var img = document.createElement("img");
-		img.src = el.imgUrl;
+	// 	var img = document.createElement("img");
+	// 	img.src = el.imgUrl;
 	
-		div.append(img);
-		document.querySelector("#container_shivam").append(div);
-	});
+	// 	div.append(img);
+	// 	document.querySelector("#container_shivam").append(div);
+	// });
