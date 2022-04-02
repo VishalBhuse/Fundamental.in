@@ -455,7 +455,7 @@
     
                             <div class="mb-3">
                                 <!-- <label for="exampleInputEmail1" class="form-label">Enter Card Number</label> -->
-                                <input placeholder="Card Number" type="text" maxlength="12" minlength="12"
+                                <input placeholder="Card Number" type="text" maxlength="16" minlength="16"
                                     class="form-control" id="card_number" aria-describedby="emailHelp">
                                 <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                             </div>
@@ -485,7 +485,7 @@
                                     <option value="2023">2023</option>
                                     <option value="2024">2024</option>
                                 </select>
-                                <input type="text" minlength="4" maxlength="4" placeholder="CVV" class="mt-3 form-control w-25" id="cvv">
+                                <input type="text" minlength="3" maxlength="3" placeholder="CVV" class="mt-3 form-control w-25" id="cvv">
                             </div>
                             <div class="row">
                                 <div class="col-3">
@@ -610,7 +610,7 @@
     function otpsned() {
         var cn = document.querySelector("#card_number").value
         var cvv = document.querySelector("#cvv").value
-        if (cn.length == 12 && cvv.length == 4) {
+        if (cn.length == 16 && cvv.length == 3) {
             swal({
                 title: "OTP has been sent",
                 text: "You OTP is 1234",
@@ -631,15 +631,19 @@
         event.preventDefault()
         console.log("")
         var otp = document.querySelector("#inotp").value
-        if (otp == "1234") {
-            console.log("hi")
+        if (otp == "1234") 
+        {
+            // console.log("hi")
             swal({
                 title: "Your order is place!",
                 text: "Thank you for shopping with us!",
                 icon: "success",
                 button: "Thank you!",
-            });
-        } else {
+            });            
+            window.location.href="index.html";
+        } 
+        else 
+        {
             swal({
                 text: "Your order is not place!",
                 title: "Your payment failed!",
