@@ -50,6 +50,14 @@
     font-size: 15px; 
 }
 
+.footfund4 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.footfund4 ul li a:hover{
+    color: #E42329 !important;
+}
+
 
 .funda {
     margin: 35px;
