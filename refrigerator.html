@@ -448,6 +448,11 @@
     <div class="container-fluid">
 
         <div id="topbar_shivam"  class="container">
+            <select id="sortSalary" onchange="handleSalarySort()" style="border: 2px solid #000;font-size: 13px;">
+                <option value="">Sort By Price</option>
+                <option value="htl">High to Low</option>
+                <option value="lth">Low to High</option>
+            </select>
             <div id="top1">
                 <span><i class="fa-solid fa-sliders"></i></span>FILTER
             </div>
@@ -687,6 +692,13 @@
     console.log(len);
     document.querySelector("#countercart").innerText = len;
 
+
+
+    window.addEventListener("load", function () {
+        displatdata(data1);
+    });
+
+    function displatdata(data1) {
        data1.map(function(elem) {
   
         var div = document.createElement("div");
@@ -749,6 +761,33 @@
   
         document.querySelector("#ankit").append(div);
       });
+    }
+
+
+      function handleSalarySort() {
+        var selected = document.querySelector("#sortSalary").value;
+        // console.log(selected);
+        if (selected == "htl") {
+            data1.sort(function (a, b) {
+                return b.price - a.price;
+            });
+            document.querySelector("#ankit").innerHTML = "";
+            console.log(displatdata);
+            displatdata(data1);
+            // window.location.reload()
+        }
+
+        if (selected == "lth") {
+            data1.sort(function (a, b) {
+                return a.price - b.price;
+            });
+            document.querySelector("#ankit").innerHTML = "";
+            console.log(displatdata);
+            displatdata(data1)
+            // window.location.reload()
+        }
+
+    }
        
   
       
