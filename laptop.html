@@ -640,6 +640,14 @@
     console.log(len);
     document.querySelector("#countercart").innerText = len;
 
+    
+    window.addEventListener("load", function () {
+        displatdata(data1);
+    });
+
+    function displatdata(data1) { 
+        
+        
        data1.map(function(elem) {
         // 4 times
         var div = document.createElement("div");
@@ -722,6 +730,7 @@
   
         document.querySelector("#container").append(div);
       });
+    }
     
     function addToCart(ele) {
     console.log(ele);
@@ -730,5 +739,30 @@
     // alert("item added to cart");
     window.location.href ="cart.html";
   }
+    
+    function handleSalarySort() {
+        var selected = document.querySelector("#sortSalary").value;
+        // console.log(selected);
+        if (selected == "htl") {
+            data1.sort(function (a, b) {
+                return b.price - a.price;
+            });
+            document.querySelector("#container").innerHTML = "";
+            console.log(displatdata);
+            displatdata(data1);
+            // window.location.reload()
+        }
+
+        if (selected == "lth") {
+            data1.sort(function (a, b) {
+                return a.price - b.price;
+            });
+            document.querySelector("#container").innerHTML = "";
+            console.log(displatdata);
+            displatdata(data1)
+            // window.location.reload()
+        }
+
+    }
   
   </script>
