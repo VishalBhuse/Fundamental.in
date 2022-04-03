@@ -644,6 +644,11 @@
     window.addEventListener("load", function () {
         displatdata(data1);
     });
+    
+    var data = JSON.parse(localStorage.getItem("cart"));
+ var len = data.length;
+    console.log(len);
+    document.querySelector("#countercart").innerText = len;
 
     function displatdata(data1) {
         data1.map(function (elem) {
