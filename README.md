@@ -6,17 +6,17 @@ Project Fundamental.in Clone
 Hi Everyone, This is our first team project at Masai school.
 
 Our Team Members :-
-Vishal Bhuse (LinkedIn Profile)
+Vishal Bhuse 
 
-Ankit Mishra (LinkedIn Profile)
+Ankit Mishra 
 
-Shivam Maurya (LinkedIn Profile)
+Shivam Maurya
 
-Vishwas Kumar (LinkedIn Profile)
+Vishwas Kumar
 
-Jhulan Mahato (LinkedIn Profile)
+Jhulan Mahato
 
-Pradyuman Shukla (LinkedIn Profile)
+Pradyuman Shukla 
 
 This is our first project at Masai School using BootStrap,JavaScript, HTML, and CSS. We worked on fundamental.in an online Electronic item selling store.
 
