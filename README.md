@@ -81,42 +81,7 @@ After Proceeding users get this screen-
 Tools Used -
 Github for code collaboration.
 Slack and Zoom for communication.
-Team Contributions:-
-Vishal Bhuse : -
 
-I worked on the home page header and footer, cart page & checkout page tried clone it exactly like the original website’s page specifically when it comes to the Navigation bar, footer, carousel and shop categoty.
-Worked on almost every page of the website in terms of syncing all the pages together and fixing the Navigation bar, and as well as on functionality of the website using localstorage.
-Built product sort filtering Created a local database for product functionality And much other syncing functionality in this project was part of my job.
-I used HTML, CSS, Bootstrap-5, Sweet alert, JS, and Local-Storage ( to store and get data) and creative tags in JavaScript.
-Shivam Maurya: -
-
-1. I worked on products page (mobilesand gadgets page).
-
-2. Also worked on homepage of the website where I have provided responsive behavior to the images.
-
-3. I have used HTML ,CSS and Javascript.
-
-Pradyuman Shukla :-
-
-I worked on the home page where I build the …….
-
-1.TELEVISION & AUDIO
-
-2.AIR CONDITIONERS
-
-3. I have also worked on the main home page
-
-4. The language used for the built site-: Html, CSS, Javascript, bootstrap.
-
-Vishwas Kumar :-
-
-1.I worked on the home page Computing Section and Personal Grooming, Sign out( JS Part & Local Storage Part ), Laptop Product page, and Personal Grooming Product Page & tried to clone it exactly like the original website’s page.
-
-2.I used HTML, CSS, JS, and Local-Storage ( to store and get data) in JavaScript.
-
-3.Here we have learned how to work and communicate with a team. We all came to know how to use Github and push and clone the code from Github.
-
-4.Also, we have learned how to work under pressure conditions. I would like to thank my team members for their support.Here we have learnt how to work and communicate with a team. We all came to know how to use Github and read the code of team members.Also we have learnt how to work under pressure conditions. I would like to thank my team members for their support.
 
 Project link : https://vishalbhuse.github.io/Fundamental.in/index.html
 
