@@ -7,17 +7,17 @@ Hi Everyone, This is our first team project at Masai school.
 
 Our Team Members :
 
-Vishal Bhuse 
+- Vishal Bhuse 
 
-Ankit Mishra 
+- Ankit Mishra 
 
-Shivam Maurya
+- Shivam Maurya
 
-Vishwas Kumar
+- Vishwas Kumar
 
-Jhulan Mahato
+- Jhulan Mahato
 
-Pradyuman Shukla 
+- Pradyuman Shukla 
 
 This is our first project at Masai School using BootStrap,JavaScript, HTML, and CSS. We worked on fundamental.in an online Electronic item selling store.
 
@@ -31,10 +31,10 @@ Fundamental Electronics Pvt. Ltd. was founded in 1995 by Mr. Sanjay Taneja in Ko
 
 
 Tech Used -
-HTML,
-CSS,
-Java Script,
-BootStrap
+- HTML,
+- CSS,
+- Java Script,
+- BootStrap
 
 ### Homepage -
 This is the main landing page of our website. Here clicking on any option on the Navbar will redirect the user to the respective Product Page.
