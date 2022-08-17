@@ -5,7 +5,8 @@ Blog Link : - https://medium.com/@vbhuse2407/project-fundamental-in-clone-3abd57
 Project Fundamental.in Clone
 Hi Everyone, This is our first team project at Masai school.
 
-Our Team Members :-
+Our Team Members :
+
 Vishal Bhuse 
 
 Ankit Mishra 
@@ -28,15 +29,14 @@ Fundamental Electronics Pvt.Ltd. is an online store where it provides the custom
 
 Fundamental Electronics Pvt. Ltd. was founded in 1995 by Mr. Sanjay Taneja in Kolkata and is an omnichannel retailer of electronic goods. The company operates a chain of multi-brand stores and Samsung brand shops with its flagship store at the premium South City Mall in Kolkata.
 
-We have tried our level best to make use of our so far journey and the knowledge.
 
 Tech Used -
-HTML
-CSS
-Java Script
+HTML,
+CSS,
+Java Script,
 BootStrap
 
-Homepage -
+### Homepage -
 This is the main landing page of our website. Here clicking on any option on the Navbar will redirect the user to the respective Product Page.
 
 This page is functional and responsive.
@@ -45,20 +45,20 @@ This page is functional and responsive.
 
 <img src="https://miro.medium.com/max/1400/0*w6BuQC9aXmZpIaIq"/>
 
-Sign up / Sign in Page -
+### Sign up / Sign in Page -
 
 In this page you can register an user. If the user is already registered, you can simply sign in by providing valid details of the user.
 
 <img src="https://miro.medium.com/max/1400/0*yyhgWNkSmOjd4vv9" />
 
-Products Page -
+### Products Page -
 Here users can browse and add items to cart by clicking on the Bag button.
 
 <img src="https://miro.medium.com/max/1400/0*RIVfA3lEfz--879W" />
 
 
 
-Cart Page -
+### Cart Page -
 Here all the products added to the cart will be shown.
 
 In this page you can also increase or decrease the quantity of items. You can also apply for a coupon here.
@@ -67,7 +67,7 @@ By clicking on the “PROCEED TO CHECKOUT” button you will be redirected to th
 
 <img src="https://miro.medium.com/max/1400/0*gLe-PYu1-PAD2SQl" />
 
-Payment Page -
+### Payment Page -
 In this page users can add their address details and add their payment details.
 
 By providing these details users can place orders by clicking the “PLACE ORDER” button.
@@ -78,7 +78,7 @@ After Proceeding users get this screen-
 
 <img src="https://miro.medium.com/max/1400/0*aUmS4rei6g9xP2fb" />
 
-Tools Used -
+### Tools Used -
 Github for code collaboration.
 Slack and Zoom for communication.
 
